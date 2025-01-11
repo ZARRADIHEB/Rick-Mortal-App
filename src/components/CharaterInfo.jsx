@@ -52,12 +52,12 @@ const CharaterInfo = () => {
           </div>
           <div className="buttons">
             <Button
-              href={`http://localhost:3000/character/${parseInt(id) - 1}`}
+              href={`/character/${parseInt(id) - 1}`}
             >
               ◀ Previous Character
             </Button>
             <Button
-              href={`http://localhost:3000/character/${parseInt(id) + 1}`}
+              href={`/character/${parseInt(id) + 1}`}
             >
               Next Character ▶
             </Button>
