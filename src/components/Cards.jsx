@@ -54,7 +54,7 @@ const Cards = () => {
                   <Card.Title>{name}</Card.Title>
                   <Card.Text>{gender}</Card.Text>
                   <Button
-                    href={`http://localhost:3000/character/${id}`}
+                    href={`/character/${id}`}
                     variant="primary"
                   >
                     Explore Character
